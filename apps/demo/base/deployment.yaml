@@ -1,6 +1,6 @@
 apiVersion: apps/v1
 kind: Deployment
-meta
+metadata:
   name: web
   labels:
     app: web
@@ -10,7 +10,7 @@ spec:
     matchLabels:
       app: web
   template:
-    meta
+    metadata:
       labels:
         app: web
     spec:
